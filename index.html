@@ -503,7 +503,7 @@
         headers: { 'Content-Type': 'application/json', 'api-key': API_KEY },
         body: JSON.stringify({
           conversation: conversation.id,
-          agent: { name: AGENT_NAME, version: AGENT_VERSION, type: 'agent_reference' }
+          agent_reference: { name: AGENT_NAME, version: AGENT_VERSION, type: 'agent_reference' }
         })
       });
 
